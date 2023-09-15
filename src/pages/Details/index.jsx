@@ -1,12 +1,12 @@
 
-import './styles.css'
+import { Container } from "./styles"
 
 export function Details() {
 
   return (
-    <>
+    <Container>
       <h1>Hello World</h1>
       <span>Dennis Costa</span>
-    </>
+    </Container>
   )
 }
