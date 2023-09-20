@@ -8,7 +8,7 @@ export const Container = styled.div`
 
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
   
-  color: ${({ theme }) => theme.COLORS.GRAY_300};
+  
 
   margin-bottom: 8px;
   border-radius: 10px;
@@ -21,7 +21,7 @@ export const Container = styled.div`
     background: transparent;
     border: none;
     
-    color: ${({ theme }) => theme.COLORS.GRAY_300};
+    color: ${({ theme }) => theme.COLORS.WHITE};
 
     &:placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_300};
@@ -31,5 +31,6 @@ export const Container = styled.div`
  
   > svg {
     margin-left: 16px;
+    color: ${({ theme }) => theme.COLORS.GRAY_300};
   }
 `
